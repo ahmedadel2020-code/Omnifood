@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Omnifood
+  annotations:
+    github.com/project-slug: ahmedadel2020-code/Omnifood
+spec:
+  type: other
+  lifecycle: unknown
+  owner: my-group
