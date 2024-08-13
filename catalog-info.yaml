@@ -2,9 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Omnifood
+  description: Omnifood is a web app I build during practice a simple course on Udemy
   annotations:
     github.com/project-slug: ahmedadel2020-code/Omnifood
+  tags:
+    - go
+    - website
 spec:
-  type: other
-  lifecycle: unknown
-  owner: my-group
+  type: service
+  lifecycle: production
+  owner: GCP
