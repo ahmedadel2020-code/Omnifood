@@ -4,8 +4,9 @@ metadata:
   name: omnifood
   description: Omnifood is a web app I build during practice a simple course on Udemy
   annotations:
-    github.com/project-slug: ahmedadel2020-code/Omnifood
-    backstage.io/techdocs-ref: value
+    # github.com/project-slug: ahmedadel2020-code/Omnifood
+    circleci.com/project-slug: github/ahmedDev/Omnifood
+    backstage.io/techdocs-ref: dir:.
   tags:
     - go
     - website
